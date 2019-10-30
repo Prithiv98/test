@@ -2,8 +2,10 @@
 int main()
 {
     int l, h, i, f;
-    printf("Enter two numbers(intervals): ");
-    scanf("%d %d", &l, &h);
+    printf("Enter two first number: ");
+    scanf("%d %d", &l);
+    printf("Enter the highest number");
+    scanf("%d", &h);
     printf("Prime numbers between %d and %d are: ", l, h);
     while (l < h)
     {
