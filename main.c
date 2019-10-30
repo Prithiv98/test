@@ -5,7 +5,7 @@ int prime(int , int);
 
 int main()
 {
-    int l, h, i, f;
+    int l, h, 
     printf("Enter two first number: ");
     scanf("%d", &l);
     printf("Enter the highest number");
@@ -17,6 +17,7 @@ int main()
 
 int prime(int l,int h)
 {
+    int i,f;
     while (l < h)
     {
         f = 0;
