@@ -24,5 +24,5 @@ int main()
             printf("%d ", l);
         ++l;
     }
-    return
+    return 0
 }
