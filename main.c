@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int prime(int , int);
+
 int main()
 {
     int l, h, i, f;
@@ -9,6 +11,12 @@ int main()
     printf("Enter the highest number");
     scanf("%d", &h);
     printf("Prime numbers between %d and %d are: ", l, h);
+    
+    prime(l,h);
+}
+
+int prime(int l,int h)
+{
     while (l < h)
     {
         f = 0;
@@ -21,8 +29,8 @@ int main()
             }
         }
         if (f == 0)
-            printf("%d ", l);
+            return l;
         ++l;
     }
-    return 0
+    
 }
