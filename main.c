@@ -5,7 +5,7 @@ int main()
 {
     int l, h, i, f;
     printf("Enter two first number: ");
-    scanf("%d %d", &l);
+    scanf("%d", &l);
     printf("Enter the highest number");
     scanf("%d", &h);
     printf("Prime numbers between %d and %d are: ", l, h);
